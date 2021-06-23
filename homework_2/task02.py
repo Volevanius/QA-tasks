@@ -3,7 +3,7 @@
 # Найти тех кто состоит во всех черных списках.
 
 bigno_blacklist = {"Mac DeMarco", "Franchesko Papa", "Vasya Pupkin"}
-poker_blacklist = {"Clarc Pupenberg", "Petya pyatochkin", "Mac DeMarco", "Franchesko Papa"}
+poker_blacklist = {"Clarc Pupenberg", "Petya Pyatochkin", "Mac DeMarco", "Franchesko Papa"}
 majong_blacklist = {"PVasya Pupkin", "Mac DeMarco", "Franchesko Papa"}
 
 totally_banned = bigno_blacklist.intersection(poker_blacklist).intersection(majong_blacklist)
